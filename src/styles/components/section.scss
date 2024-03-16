@@ -1,0 +1,58 @@
+.acceuil{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+    h1,p{
+        
+        margin:0;
+        text-align: center;
+    }
+    p{
+
+        white-space:nowrap;
+    }
+}
+
+.section{
+
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section__contact{
+
+    .reseaux{
+        // padding: 0px 0px 0px 20px;
+        list-style-type: none;
+        
+        // display: inline-block;
+        width: 100%;
+        margin: 0;
+
+        &__el{
+            width: 60%;
+            a{
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                
+            }
+
+            svg {
+                margin-right: 10%; /* Ajout d'une marge à gauche pour séparer l'icône de Instagram */
+                // width: 50%;
+            }
+
+        } 
+    }
+
+}
+
+

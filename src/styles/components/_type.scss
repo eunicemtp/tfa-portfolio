@@ -10,7 +10,7 @@
   --font-family-title: "silver-streak-variable", sans-serif;
   --font-family-h1-variation:"wght" 535, "wdth" 100;
   --font-family-h2-variation:"wght" 400, "wdth" 110;
-  --mobile-title-spaceBetween:60px 30px 60px ;
+  --mobile-title-spaceBetween:60px 0 60px 0;
 }
 
 
@@ -37,4 +37,8 @@ h2{
 .title {
   font-family: var(--font-family-title);
   opacity: 70%;
+  padding: var(--mobile-title-spaceBetween);
+  margin: 0;
+  position: sticky;
+  top: 0;
 }

@@ -1,35 +1,4 @@
 @import 'utils/variables';
 @import 'components/type';
 @import 'components/background';
-
-.acceuil{
-    // width:30vw;
-    // height:30vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  
-    h1,p{
-        
-        margin:0;
-        text-align: center;
-    }
-    p{
-
-        white-space:nowrap;
-    }
-
-
-    
-    // .deux{
-        
-    //     width: 50vw;
-    //     height: 100vh;
-    //     margin-top:10%;
-        
-    //     text-align:center;
-    // }
-
-}
+@import 'components/section';
