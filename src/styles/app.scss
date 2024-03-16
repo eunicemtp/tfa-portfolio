@@ -2,9 +2,6 @@
 @import 'components/type';
 @import 'components/background';
 
-
-
-
 .acceuil{
     // width:30vw;
     // height:30vh;
@@ -12,33 +9,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
   
     h1,p{
         
         margin:0;
-    }
-    
-    h1{
-        font-size: 140px;
+        text-align: center;
     }
     p{
-        font-size:20px;
-        width:110%;
-        font-family: "Sometype Mono", monospace;
-        font-optical-sizing: auto;
-        font-style: normal;
+
+        white-space:nowrap;
     }
+
+
     
-    .deux{
+    // .deux{
         
-        width: 50vw;
-        height: 100vh;
-        margin-top:10%;
+    //     width: 50vw;
+    //     height: 100vh;
+    //     margin-top:10%;
         
-        text-align:center;
-    }
-    h2{
-        font-size:50px;
-    
-    }
+    //     text-align:center;
+    // }
+
 }
